@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(244, 247, 255);
+    overflow: hidden;
+}
+
+.home{
+    font-family: 'Satoshi', sans-serif;
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        
+        .big_text{
+            padding: 100px 0 100px 175px;
+            width: 50%;
+            h1{
+                font-size: 75px;
+                width: 80%;
+            }
+        }
+
+        .small_text{
+            width: 50%;
+            padding: 170px 100px 100px 50px;
+
+            .text{
+                width: 100%;
+            }
+
+            .section{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 20px;
+
+                .text{
+                    width: 40%;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .bottom-image {
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        width: 100%;
+
+        z-index: -1;
+      }
+}
+
+
