@@ -12,14 +12,12 @@ const Home = () => {
                 <div className="big_text">
                     <h1>New way of your modern delivery</h1>
                 </div>
-                <div>
-                    <div className="small_text">
-                        <div className="text">Our company uses the latest delivery technology
-                        to deliver your parcel anywhere and anytime.</div>
-                        <div className="section">
-                            <Button>Get Started</Button>
-                            <div className="text">Track your order</div>
-                        </div>
+                <div className="small_text">
+                    <div className="text">Our company uses the latest delivery technology
+                    to deliver your parcel anywhere and anytime.</div>
+                    <div className="section">
+                        <Button>Get Started</Button>
+                        <div className="text">Track your order</div>
                     </div>
                 </div>
             </div>

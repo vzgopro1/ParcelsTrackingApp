@@ -9,9 +9,9 @@ body{
     .content{
         display: flex;
         justify-content: space-between;
-        
+
         .big_text{
-            padding: 100px 0 100px 175px;
+            padding: 50px 0 100px 175px;
             width: 50%;
             h1{
                 font-size: 75px;
@@ -24,7 +24,7 @@ body{
             padding: 170px 100px 100px 50px;
 
             .text{
-                width: 100%;
+                width: 70%;
             }
 
             .section{
@@ -45,7 +45,6 @@ body{
         top: 30%;
         left: 0%;
         width: 100%;
-
         z-index: -1;
       }
 }
