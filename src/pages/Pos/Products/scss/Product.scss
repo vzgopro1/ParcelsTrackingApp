@@ -68,16 +68,17 @@
                 display: flex;
                 justify-content: space-between;
                 box-sizing: border-box;
+                padding-top: 10px;
 
                 .type {
                     border-radius: 14px;
-                    padding: 7px;
+                    padding: 4px 10px 4px 10px;
                     font-size: 12px;
                     background-color: rgb(253, 247, 241);
                     color: rgb(242, 198, 160);
 
                     @media (max-width: 480px) {
-                        font-size: 14px;
+                        font-size: 12px;
                         padding: 8px 10px;
                     }
                 }
