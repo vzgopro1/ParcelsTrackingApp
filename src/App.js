@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Pos from './pages/Pos/Pos';
 
 function App() {
 
@@ -11,6 +12,12 @@ function App() {
             path="/"
             element={
                 <Home/>
+            }
+          />
+          <Route
+            path="/pos"
+            element={
+                <Pos/>
             }
           />
         </Routes>

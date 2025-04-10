@@ -3,8 +3,10 @@ import './styles/Home.scss';
 import Button from "../../components/Button";
 import Header from "../../components/Header";
 import BgPhoto from '../../assets/img/home/bg_image6.jpeg'
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate();
     return (
         <div className="home">
             <Header/>
@@ -16,7 +18,7 @@ const Home = () => {
                     <div className="text">Our company uses the latest delivery technology
                     to deliver your parcel anywhere and anytime.</div>
                     <div className="section">
-                        <Button>Get Started</Button>
+                        <Button onClick={() => navigate("/pos")}>Get Started</Button>
                         <div className="text">Track your order</div>
                     </div>
                 </div>
