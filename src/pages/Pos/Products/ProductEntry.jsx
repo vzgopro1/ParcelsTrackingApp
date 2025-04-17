@@ -10,7 +10,6 @@ const ProductEntry = ({ product, dispatch }) => {
     <div 
       className="entry" 
       onClick={handleAddToCart} 
-      style={{ cursor: "pointer" }}
     >
       <img alt="product_img" src={product.img} />
       <div className="info">
